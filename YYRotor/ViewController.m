@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YYRotor.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)ag:(id)sender
+{
+    YYRotor * rotor = [YYRotor creatXIB];
+    [rotor show];
 }
 
 - (void)didReceiveMemoryWarning {

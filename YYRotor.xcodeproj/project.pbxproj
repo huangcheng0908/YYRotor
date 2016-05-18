@@ -15,6 +15,8 @@
 		0409B9131CEB1F4C007CAA0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409B9111CEB1F4C007CAA0D /* LaunchScreen.storyboard */; };
 		0409B91E1CEB1F4C007CAA0D /* YYRotorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409B91D1CEB1F4C007CAA0D /* YYRotorTests.m */; };
 		0409B9291CEB1F4C007CAA0D /* YYRotorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409B9281CEB1F4C007CAA0D /* YYRotorUITests.m */; };
+		0409B9391CEB1F70007CAA0D /* YYRotor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409B9381CEB1F70007CAA0D /* YYRotor.m */; };
+		0409B93B1CEB1F88007CAA0D /* YYRotor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0409B93A1CEB1F88007CAA0D /* YYRotor.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0409B9241CEB1F4C007CAA0D /* YYRotorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYRotorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0409B9281CEB1F4C007CAA0D /* YYRotorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYRotorUITests.m; sourceTree = "<group>"; };
 		0409B92A1CEB1F4C007CAA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0409B9371CEB1F70007CAA0D /* YYRotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRotor.h; sourceTree = "<group>"; };
+		0409B9381CEB1F70007CAA0D /* YYRotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRotor.m; sourceTree = "<group>"; };
+		0409B93A1CEB1F88007CAA0D /* YYRotor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYRotor.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		0409B9021CEB1F4C007CAA0D /* YYRotor */ = {
 			isa = PBXGroup;
 			children = (
+				0409B9361CEB1F52007CAA0D /* Rotor */,
 				0409B9061CEB1F4C007CAA0D /* AppDelegate.h */,
 				0409B9071CEB1F4C007CAA0D /* AppDelegate.m */,
 				0409B9091CEB1F4C007CAA0D /* ViewController.h */,
@@ -138,6 +144,16 @@
 				0409B92A1CEB1F4C007CAA0D /* Info.plist */,
 			);
 			path = YYRotorUITests;
+			sourceTree = "<group>";
+		};
+		0409B9361CEB1F52007CAA0D /* Rotor */ = {
+			isa = PBXGroup;
+			children = (
+				0409B9371CEB1F70007CAA0D /* YYRotor.h */,
+				0409B9381CEB1F70007CAA0D /* YYRotor.m */,
+				0409B93A1CEB1F88007CAA0D /* YYRotor.xib */,
+			);
+			name = Rotor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0409B93B1CEB1F88007CAA0D /* YYRotor.xib in Resources */,
 				0409B9131CEB1F4C007CAA0D /* LaunchScreen.storyboard in Resources */,
 				0409B9101CEB1F4C007CAA0D /* Assets.xcassets in Resources */,
 				0409B90E1CEB1F4C007CAA0D /* Main.storyboard in Resources */,
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0409B9391CEB1F70007CAA0D /* YYRotor.m in Sources */,
 				0409B90B1CEB1F4C007CAA0D /* ViewController.m in Sources */,
 				0409B9081CEB1F4C007CAA0D /* AppDelegate.m in Sources */,
 				0409B9051CEB1F4C007CAA0D /* main.m in Sources */,
